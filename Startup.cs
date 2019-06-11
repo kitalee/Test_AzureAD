@@ -20,7 +20,7 @@ namespace Test_AzureAD
         string clientId = System.Configuration.ConfigurationManager.AppSettings["ClientId"];
 
         // RedirectUri is the URL where the user will be redirected to after they sign in
-        string redirectUrl = System.Configuration.ConfigurationManager.AppSettings["redirectUrl"];
+        string redirectUrl = System.Configuration.ConfigurationManager.AppSettings["RedirectUrl"];
 
         // Tenant is the tenant ID (e.g. contoso.onmicrosoft.com, or 'common' for multi-tenant)
         static string tenant = System.Configuration.ConfigurationManager.AppSettings["Tenant"];

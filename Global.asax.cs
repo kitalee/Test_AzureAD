@@ -13,6 +13,9 @@ namespace Test_AzureAD
         {
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            // To protect your entire website
+            //GlobalFilters.Filters.Add(new AuthorizeAttribute());
         }
     }
 }
